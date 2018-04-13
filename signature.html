@@ -110,7 +110,7 @@
     .ExternalClass div,
     .ExternalClass span,
     .ExternalClass font {
-      line-height: 100%;
+      line-height: 1;
     }
 
     a[x-apple-data-detectors] {
@@ -120,10 +120,6 @@
       font-family: inherit !important;
       font-weight: inherit !important;
       line-height: inherit !important;
-    }
-
-    #bodyCell {
-      padding: 10px;
     }
 
     .templateContainer {
@@ -204,7 +200,7 @@
       /*@editable*/
       font-weight: bold;
       /*@editable*/
-      line-height: 125%;
+      line-height: 1.25;
       /*@editable*/
       letter-spacing: normal;
       /*@editable*/
@@ -230,7 +226,7 @@
       /*@editable*/
       font-weight: bold;
       /*@editable*/
-      line-height: 125%;
+      line-height: 1.25;
       /*@editable*/
       letter-spacing: normal;
       /*@editable*/
@@ -256,7 +252,7 @@
       /*@editable*/
       font-weight: bold;
       /*@editable*/
-      line-height: 125%;
+      line-height: 1.25;
       /*@editable*/
       letter-spacing: normal;
       /*@editable*/
@@ -282,7 +278,7 @@
       /*@editable*/
       font-weight: bold;
       /*@editable*/
-      line-height: 125%;
+      line-height: 1.25;
       /*@editable*/
       letter-spacing: normal;
       /*@editable*/
@@ -331,7 +327,7 @@
       /*@editable*/
       font-size: 12px;
       /*@editable*/
-      line-height: 150%;
+      line-height: 1.5;
       /*@editable*/
       text-align: left;
     }
@@ -394,7 +390,7 @@
       /*@editable*/
       font-size: 16px;
       /*@editable*/
-      line-height: 150%;
+      line-height: 1.5;
       /*@editable*/
       text-align: left;
     }
@@ -457,7 +453,7 @@
       /*@editable*/
       font-size: 16px;
       /*@editable*/
-      line-height: 150%;
+      line-height: 1.5;
       /*@editable*/
       text-align: left;
     }
@@ -499,10 +495,6 @@
       border-top: 0;
       /*@editable*/
       border-bottom: 0;
-      /*@editable*/
-      padding-top: 9px;
-      /*@editable*/
-      padding-bottom: 9px;
     }
 
     /*
@@ -520,7 +512,7 @@
       /*@editable*/
       font-size: 16px;
       /*@editable*/
-      line-height: 125%;
+      line-height: 1.25;
       /*@editable*/
       text-align: center;
     }
@@ -565,13 +557,6 @@
       body {
         width: 100% !important;
         min-width: 100% !important;
-      }
-
-    }
-
-    @media only screen and (max-width: 590px) {
-      #bodyCell {
-        padding-top: 10px !important;
       }
 
     }
@@ -704,7 +689,7 @@
         /*@editable*/
         font-size: 22px !important;
         /*@editable*/
-        line-height: 125% !important;
+        line-height: 1.25 !important;
       }
 
     }
@@ -719,7 +704,7 @@
         /*@editable*/
         font-size: 20px !important;
         /*@editable*/
-        line-height: 125% !important;
+        line-height: 1.25 !important;
       }
 
     }
@@ -734,7 +719,7 @@
         /*@editable*/
         font-size: 18px !important;
         /*@editable*/
-        line-height: 125% !important;
+        line-height: 1.25 !important;
       }
 
     }
@@ -749,7 +734,7 @@
         /*@editable*/
         font-size: 16px !important;
         /*@editable*/
-        line-height: 150% !important;
+        line-height: 1.5 !important;
       }
 
     }
@@ -765,7 +750,7 @@
         /*@editable*/
         font-size: 12px !important;
         /*@editable*/
-        line-height: 150% !important;
+        line-height: 1.5 !important;
       }
 
     }
@@ -794,7 +779,7 @@
         /*@editable*/
         font-size: 14px !important;
         /*@editable*/
-        line-height: 150% !important;
+        line-height: 1.5 !important;
       }
 
     }
@@ -810,7 +795,7 @@
         /*@editable*/
         font-size: 16px !important;
         /*@editable*/
-        line-height: 150% !important;
+        line-height: 1.5 !important;
       }
 
     }
@@ -826,7 +811,7 @@
         /*@editable*/
         font-size: 16px !important;
         /*@editable*/
-        line-height: 150% !important;
+        line-height: 1.5 !important;
       }
 
     }
@@ -842,7 +827,7 @@
         /*@editable*/
         font-size: 12px !important;
         /*@editable*/
-        line-height: 125% !important;
+        line-height: 1.25 !important;
       }
 
     }
@@ -859,257 +844,64 @@
 						<tr>
               <td align="left" valign="top" width="600" style="width:600px;">
                 <![endif]-->
-                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" class="templateContainer">
+          <tr>
+            <td valign="top" id="templateFooter">
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
+                <tbody class="mcnDividerBlockOuter">
                   <tr>
-                    <td valign="top" id="templateFooter">
-                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnDividerBlock" style="min-width:100%;">
-                        <tbody class="mcnDividerBlockOuter">
+                    <td class="mcnDividerBlockInner" style="min-width:100%;">
+                      <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px solid #AD619D;">
+                        <tbody>
                           <tr>
-                            <td class="mcnDividerBlockInner" style="min-width:100%; padding:18px;">
-                              <table class="mcnDividerContent" border="0" cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;border-top: 2px solid #AD619D;">
-                                <tbody><tr>
-                                  <td>
-                                    <span></span>
-                                  </td>
-                                </tr>
-                              </tbody>
-                            </table>
+                            <td>
+                              <span></span>
                             </td>
                           </tr>
                         </tbody>
                       </table>
-                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
-                        <tbody class="mcnCaptionBlockOuter">
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
+                <tbody class="mcnCaptionBlockOuter">
+                  <tr>
+                    <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+                      <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightContentOuter" width="100%">
+                        <tbody>
                           <tr>
-                            <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
-                              <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightContentOuter" width="100%">
+                            <td valign="top" class="mcnCaptionRightContentInner" style="padding:0 9px ;">
+                              <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="132">
                                 <tbody>
                                   <tr>
-                                    <td valign="top" class="mcnCaptionRightContentInner" style="padding:0 9px ;">
-                                      <table align="left" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionRightImageContentContainer" width="132">
-                                        <tbody>
-                                          <tr>
-                                            <td class="mcnCaptionRightImageContent" align="center" valign="top">
-                                              <img alt="" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/43a1fe51-810a-4111-9980-445266ecd6d7.png"
-                                              width="100" style="max-width:100px;" class="mcnImage">
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                      <table class="mcnCaptionRightTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="396">
-                                        <tbody>
-                                          <tr>
-                                            <td valign="top" class="mcnTextContent" style="font-size: 18px; font-style: normal; font-weight: normal; line-height: 125%; text-align: left;">
-                                              <div>
-                                                <br>
-                                                <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
-                                                  <font color="#ad619d">
-                                                    <strong>
-                                                      <span style="font-size:24px">WILL SMITH</span>
-                                                    </strong>
-                                                  </font>
-                                                </span>
-                                                <br>
-                                                <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
-                                                  <span style="font-size:16px">
-                                                    <span style="color:#7D7C7C">Web Developer &amp; Marketing Producer</span>
-                                                  </span>
-                                                </span>
-                                              </div>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                                    <td class="mcnCaptionRightImageContent" align="center" valign="top">
+                                      <img alt="" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/43a1fe51-810a-4111-9980-445266ecd6d7.png"
+                                        width="100" style="max-width:100px;" class="mcnImage">
                                     </td>
                                   </tr>
                                 </tbody>
                               </table>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
-                        <tbody class="mcnCaptionBlockOuter">
-                          <tr>
-                            <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
-                              <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%">
+                              <table class="mcnCaptionRightTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="396">
                                 <tbody>
                                   <tr>
-                                    <td valign="top" class="mcnCaptionLeftContentInner" style="padding:0 9px ;">
-                                      <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="264">
-                                        <tbody>
-                                          <tr>
-                                            <td class="mcnCaptionLeftImageContent" align="center" valign="top">
-                                              <img alt="" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/b9af9158-9649-4bc6-a550-4b46d8ea8b7d.png"
-                                              width="264" style="max-width:264px;" class="mcnImage">
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
-                                      <table class="mcnCaptionLeftTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="264">
-                                        <tbody>
-                                          <tr>
-                                            <td valign="top" class="mcnTextContent" style="text-align: left;">
-                                              <div style="text-align: left;">
-                                                <table>
-                                                  <tbody>
-                                                    <tr>
-                                                      <td style="width: 40px; text-align: center;" width="40">
-                                                        <img data-file-id="696379" height="32" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/06b9b32f-f544-4cfb-ba45-d2ab7c6c7791.png"
-                                                        style="border: 0px initial ; width: 32px; height: 32px; margin: 0px;" width="32">
-                                                      </td>
-                                                      <td style="vertical-align:top;" valign="top">
-                                                        <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
-                                                          <a href="https://www.google.com/maps/place/Architectural+Systems/@40.7449042,-73.9938741,15z/data=!4m5!3m4!1s0x0:0x4119745ea35a899c!8m2!3d40.7449042!4d-73.9938741"
-                                                          target="_blank">
-                                                          <span style="color:#434343">
-                                                            <strong>150 W. 25th Street, 8th Floor
-                                                              <br> New York, NY 10001</strong>
-                                                            </span>
-                                                          </a>
-                                                        </span>
-                                                      </td>
-                                                    </tr>
-                                                  </tbody>
-                                                </table>
-                                                <table>
-                                                  <tbody>
-                                                    <tr>
-                                                      <td style="width: 40px; text-align: center;" width="40">
-                                                        <img data-file-id="696399" height="18" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/e1d0a052-0114-4c15-923d-6b23add37c46.png"
-                                                        style="border: 0px  ; width: 18px; height: 18px; margin: 0px;" width="18">
-                                                      </td>
-                                                      <td style="vertical-align:top;" valign="top">
-                                                        <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
-                                                          <a href="tel:212-646-8230" target="_blank">
-                                                            <span style="color:#434343">
-                                                              <strong>212.646.8230</strong>
-                                                            </span>
-                                                          </a>
-                                                        </span>
-                                                      </td>
-                                                    </tr>
-                                                  </tbody>
-                                                </table>
-                                                <table>
-                                                  <tbody>
-                                                    <tr>
-                                                      <td style="width: 40px; text-align: center;" width="40">
-                                                        <img data-file-id="696455" height="18" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/11519802-842b-449c-b847-0bf455f5e42d.png"
-                                                        style="border: 0px  ; width: 18px; height: 18px; margin: 0px;" width="18">
-                                                      </td>
-                                                      <td style="vertical-align:top;" valign="top">
-                                                        <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
-                                                          <a href="tel:917-328-0678" target="_blank">
-                                                            <span style="color:#434343">
-                                                              <strong>917.328.0678</strong>
-                                                            </span>
-                                                          </a>
-                                                        </span>
-                                                      </td>
-                                                    </tr>
-                                                  </tbody>
-                                                </table>
-                                                <table>
-                                                  <tbody>
-                                                    <tr>
-                                                      <td style="width: 40px; text-align: center;" width="40">
-                                                        <img data-file-id="696691" height="13" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/1042cd9f-14da-4dd9-bbe1-23fe64087977.png"
-                                                        style="border: 0px  ; width: 18px; height: 13px; margin: 3px 0px 0px;"
-                                                        width="18">
-                                                      </td>
-                                                      <td style="vertical-align:top;" valign="top">
-                                                        <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
-                                                          <a href="mailto:wsmith@archsystems.com" target="_blank">
-                                                            <span style="color:#434343">
-                                                              <strong>wsmith@archsystems.com</strong>
-                                                            </span>
-                                                          </a>
-                                                        </span>
-                                                      </td>
-                                                    </tr>
-                                                  </tbody>
-                                                </table>
-                                                <table>
-                                                  <tbody>
-                                                    <tr>
-                                                      <td style="width: 40px; text-align: center;" width="40">
-                                                        <img data-file-id="696695" height="18" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/360bc34b-1482-4e2e-baff-83c9a9cb38b5.png"
-                                                        style="border: 0px initial ; width: 18px; height: 18px; margin: 0px;" width="18">
-                                                      </td>
-                                                      <td style="vertical-align:top;" valign="top">
-                                                        <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
-                                                          <a href="https://www.archsystems.com" target="_blank">
-                                                            <span style="color:#434343">
-                                                              <strong>www.archsystems.com</strong>
-                                                            </span>
-                                                          </a>
-                                                        </span>
-                                                      </td>
-                                                    </tr>
-                                                  </tbody>
-                                                </table>
-                                                &nbsp;
-                                                <table width="100%">
-                                                  <tbody>
-                                                    <tr>
-                                                      <td style="text-align: center;">
-                                                        <span style="font-size:18px">
-                                                          <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
-                                                            <strong>
-                                                              <span style="color:#AD619D">FOLLOW. TAG. SHARE</span>
-                                                            </strong>
-                                                          </span>
-                                                        </span>
-                                                      </td>
-                                                    </tr>
-                                                  </tbody>
-                                                </table>
-                                                <table width="100%">
-                                                  <tbody>
-                                                    <tr>
-                                                      <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
-                                                        <img align="center" data-file-id="696835" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/55132f9d-2b6e-472c-89d5-07fe3408c800.png"
-                                                        style="border: 0px initial ; width: 16px; height: 16px; margin: 0px;" width="16">
-                                                      </td>
-                                                      <td>&nbsp;</td>
-                                                      <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
-                                                        <img align="center" data-file-id="696839" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/3257e377-2fcc-49ea-b570-71a6c5cea69e.png"
-                                                        style="border: 0px  ; width: 16px; height: 16px; margin: 0px;" width="16">
-                                                      </td>
-                                                      <td>&nbsp;</td>
-                                                      <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
-                                                        <img align="center" data-file-id="696843" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/c7d33f9c-d744-4a1f-9eb8-a3d5ff79d172.png"
-                                                        style="border: 0px  ; width: 16px; height: 16px; margin: 0px;" width="16">
-                                                      </td>
-                                                      <td>&nbsp;</td>
-                                                      <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
-                                                        <img align="center" data-file-id="696847" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/840e8172-f8fa-4ea2-afc8-35e4b9db24f8.png"
-                                                        style="border: 0px  ; width: 16px; height: 16px; margin: 0px;" width="16">
-                                                      </td>
-                                                      <td>&nbsp;</td>
-                                                      <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
-                                                        <img align="center" data-file-id="696851" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/76754271-e425-432c-a814-0789f1bcbfbe.png"
-                                                        style="border: 0px  ; width: 16px; height: 16px; margin: 0px;" width="16">
-                                                      </td>
-                                                      <td>&nbsp;</td>
-                                                      <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
-                                                        <img align="center" data-file-id="696855" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/afe9c211-0242-4cab-b4da-0dc1efa951cd.png"
-                                                        style="border: 0px initial ; width: 16px; height: 16px; margin: 0px;" width="16">
-                                                      </td>
-                                                      <td>&nbsp;</td>
-                                                      <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
-                                                        <img align="center" data-file-id="696859" height="18" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/588b37b1-b66d-45b5-a5ae-563d8b493600.png"
-                                                        style="border: 0px  ; width: 16px; height: 18px; margin: 0px;" width="16">
-                                                      </td>
-                                                    </tr>
-                                                  </tbody>
-                                                </table>
-                                              </div>
-                                            </td>
-                                          </tr>
-                                        </tbody>
-                                      </table>
+                                    <td valign="top" class="mcnTextContent" style="font-size: 18px; font-style: normal; font-weight: normal; line-height: 1.25; text-align: left;">
+                                      <div>
+                                        <br>
+                                        <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
+                                          <font color="#ad619d">
+                                            <strong>
+                                              <span style="font-size:24px">WILL SMITH</span>
+                                            </strong>
+                                          </font>
+                                        </span>
+                                        <br>
+                                        <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
+                                          <span style="font-size:16px">
+                                            <span style="color:#7D7C7C">Web Developer &amp; Marketing Producer</span>
+                                          </span>
+                                        </span>
+                                      </div>
                                     </td>
                                   </tr>
                                 </tbody>
@@ -1120,8 +912,201 @@
                       </table>
                     </td>
                   </tr>
-                </table>
-                <!--[if (gte mso 9)|(IE)]>
+                </tbody>
+              </table>
+              <table border="0" cellpadding="0" cellspacing="0" width="100%" class="mcnCaptionBlock">
+                <tbody class="mcnCaptionBlockOuter">
+                  <tr>
+                    <td class="mcnCaptionBlockInner" valign="top" style="padding:9px;">
+                      <table border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftContentOuter" width="100%">
+                        <tbody>
+                          <tr>
+                            <td valign="top" class="mcnCaptionLeftContentInner" style="padding:0 9px ;">
+                              <table align="right" border="0" cellpadding="0" cellspacing="0" class="mcnCaptionLeftImageContentContainer" width="264" height="221">
+                                <tbody>
+                                  <tr>
+                                    <td class="mcnCaptionLeftImageContent" align="center" valign="top">
+                                      <img alt="" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/b9af9158-9649-4bc6-a550-4b46d8ea8b7d.png"
+                                        width="264" style="max-width:264px;" class="mcnImage">
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                              <table class="mcnCaptionLeftTextContentContainer" align="left" border="0" cellpadding="0" cellspacing="0" width="264" height="221">
+                                <tbody>
+                                  <tr>
+                                    <td valign="top" align="center" class="mcnTextContent" style="text-align: left;">
+                                      <div style="text-align: left;">
+                                        <table width="264" height="42" style="margin: 0 auto;">
+                                          <tbody>
+                                            <tr>
+                                              <td style="width: 40px; text-align: center;" width="40" align="center">
+                                                <img data-file-id="696379" height="32" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/06b9b32f-f544-4cfb-ba45-d2ab7c6c7791.png"
+                                                  style="border: 0px initial ; width: 32px; height: 32px; margin: 0px;" width="32">
+                                              </td>
+                                              <td style="vertical-align:top;" valign="top">
+                                                <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
+                                                  <a href="https://www.google.com/maps/place/Architectural+Systems/@40.7449042,-73.9938741,15z/data=!4m5!3m4!1s0x0:0x4119745ea35a899c!8m2!3d40.7449042!4d-73.9938741"
+                                                    target="_blank">
+                                                    <span style="color:#434343">
+                                                      <strong>150 W. 25th Street, 8th Floor
+                                                        <br> New York, NY 10001</strong>
+                                                    </span>
+                                                  </a>
+                                                </span>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <table width="264" height="25" style="margin: 0 auto;">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" style="width: 40px; text-align: center;" width="40">
+                                                <img data-file-id="696399" height="18" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/e1d0a052-0114-4c15-923d-6b23add37c46.png"
+                                                  style="border: 0px  ; width: 18px; height: 18px; margin: 0px;" width="18">
+                                              </td>
+                                              <td style="vertical-align:top;" valign="top">
+                                                <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
+                                                  <a href="tel:212-646-8230" target="_blank">
+                                                    <span style="color:#434343">
+                                                      <strong>212.646.8230</strong>
+                                                    </span>
+                                                  </a>
+                                                </span>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <table width="264" height="25" style="margin: 0 auto;">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" style="width: 40px; text-align: center;" width="40">
+                                                <img data-file-id="696455" height="18" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/11519802-842b-449c-b847-0bf455f5e42d.png"
+                                                  style="border: 0px  ; width: 18px; height: 18px; margin: 0px;" width="18">
+                                              </td>
+                                              <td style="vertical-align:top;" valign="top">
+                                                <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
+                                                  <a href="tel:917-328-0678" target="_blank">
+                                                    <span style="color:#434343">
+                                                      <strong>917.328.0678</strong>
+                                                    </span>
+                                                  </a>
+                                                </span>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <table width="264" height="25" style="margin: 0 auto;">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" style="width: 40px; text-align: center;" width="40">
+                                                <img data-file-id="696691" height="13" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/1042cd9f-14da-4dd9-bbe1-23fe64087977.png"
+                                                  style="border: 0px  ; width: 18px; height: 13px; margin: 3px 0px 0px;" width="18">
+                                              </td>
+                                              <td style="vertical-align:top;" valign="top">
+                                                <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
+                                                  <a href="mailto:wsmith@archsystems.com" target="_blank">
+                                                    <span style="color:#434343">
+                                                      <strong>wsmith@archsystems.com</strong>
+                                                    </span>
+                                                  </a>
+                                                </span>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <table width="264" height="25" style="margin: 0 auto;">
+                                          <tbody>
+                                            <tr>
+                                              <td align="center" style="width: 40px; text-align: center;" width="40">
+                                                <img data-file-id="696695" height="18" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/360bc34b-1482-4e2e-baff-83c9a9cb38b5.png"
+                                                  style="border: 0px initial ; width: 18px; height: 18px; margin: 0px;" width="18">
+                                              </td>
+                                              <td style="vertical-align:top;" valign="top">
+                                                <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
+                                                  <a href="https://www.archsystems.com" target="_blank">
+                                                    <span style="color:#434343">
+                                                      <strong>www.archsystems.com</strong>
+                                                    </span>
+                                                  </a>
+                                                </span>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <br/>
+                                        <table width="264" height="25" style="margin: 0 auto;">
+                                          <tbody>
+                                            <tr>
+                                              <td style="text-align: center;">
+                                                <span style="font-size:18px">
+                                                  <span style="font-family:helvetica neue,helvetica,arial,verdana,sans-serif">
+                                                    <strong>
+                                                      <span style="color:#AD619D">FOLLOW. TAG. SHARE</span>
+                                                    </strong>
+                                                  </span>
+                                                </span>
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                        <table width="264" height="35" style="margin: 0 auto;">
+                                          <tbody>
+                                            <tr>
+                                              <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
+                                                <img align="center" data-file-id="696835" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/55132f9d-2b6e-472c-89d5-07fe3408c800.png"
+                                                  style="border: 0px initial ; width: 16px; height: 16px; margin: 0px;" width="16">
+                                              </td>
+                                              <td>&nbsp;</td>
+                                              <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
+                                                <img align="center" data-file-id="696839" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/3257e377-2fcc-49ea-b570-71a6c5cea69e.png"
+                                                  style="border: 0px  ; width: 16px; height: 16px; margin: 0px;" width="16">
+                                              </td>
+                                              <td>&nbsp;</td>
+                                              <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
+                                                <img align="center" data-file-id="696843" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/c7d33f9c-d744-4a1f-9eb8-a3d5ff79d172.png"
+                                                  style="border: 0px  ; width: 16px; height: 16px; margin: 0px;" width="16">
+                                              </td>
+                                              <td>&nbsp;</td>
+                                              <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
+                                                <img align="center" data-file-id="696847" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/840e8172-f8fa-4ea2-afc8-35e4b9db24f8.png"
+                                                  style="border: 0px  ; width: 16px; height: 16px; margin: 0px;" width="16">
+                                              </td>
+                                              <td>&nbsp;</td>
+                                              <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
+                                                <img align="center" data-file-id="696851" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/76754271-e425-432c-a814-0789f1bcbfbe.png"
+                                                  style="border: 0px  ; width: 16px; height: 16px; margin: 0px;" width="16">
+                                              </td>
+                                              <td>&nbsp;</td>
+                                              <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
+                                                <img align="center" data-file-id="696855" height="16" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/afe9c211-0242-4cab-b4da-0dc1efa951cd.png"
+                                                  style="border: 0px initial ; width: 16px; height: 16px; margin: 0px;" width="16">
+                                              </td>
+                                              <td>&nbsp;</td>
+                                              <td height="30" style="width: 30px; height: 30px; background-color: #000000; text-align: center;" width="30">
+                                                <img align="center" data-file-id="696859" height="18" src="https://gallery.mailchimp.com/d4c12236735eb192341243993/images/588b37b1-b66d-45b5-a5ae-563d8b493600.png"
+                                                  style="border: 0px  ; width: 16px; height: 18px; margin: 0px;" width="16">
+                                              </td>
+                                            </tr>
+                                          </tbody>
+                                        </table>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
               </td>
             </tr>
 					</table>
@@ -1130,5 +1115,6 @@
       </td>
     </tr>
   </table>
-    </body>
-    </html>
+</body>
+
+</html>

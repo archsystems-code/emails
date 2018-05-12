@@ -10,37 +10,51 @@
     <link href="https://fonts.googleapis.com/css?family=Encode+Sans:500|Hind+Siliguri:500,700|Montserrat:200,500" rel="stylesheet">
     <link href="//cdn.muicss.com/mui-0.9.39/css/mui.min.css" rel="stylesheet" type="text/css" />
     <script src="//cdn.muicss.com/mui-0.9.39/js/mui.min.js"></script>
+    <style>
+      body {
+        font-family: 'Encode Sans', sans-serif;
+      }
+
+      header {
+        display: flex;
+        height: 194px;
+        background-image: linear-gradient(45deg, rgb(221, 78, 117), rgb(173, 97, 157));
+        align-items: center;
+        justify-content: center;
+      }
+
+      h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 45px;
+        line-height: 55px;
+        font-weight: 200;
+        color: #ffffff;
+      }
+
+      h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 500;
+        color: #434343;
+        text-align: center;
+      }
+
+      main {
+        display: flex;
+        flex-direction: column;
+      }
+      .mui-btn--green {
+        background-color: #61A60D;
+      }
+      .mui-checkbox>label {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        color: #434343;
+      }
+    </style>
   </head>
-  <style>
-    body {
-      font-family: 'Encode Sans', sans-serif;
-    }
-    header {
-      display: flex;
-      height: 194px;
-      background-image: linear-gradient(45deg, rgb(221,78,117), rgb(173,97,157));
-      align-items: center;
-      justify-content: center;
-    }
-    h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 45px;
-      line-height: 55px;
-      font-weight: 200;
-      color: #ffffff;
-    }
-    h2 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 30px;
-      line-height: 40px;
-      font-weight: 500;
-      color: #434343;
-    }
-    main {
-      display: flex;
-      flex-direction: column;
-    }
-  </style>
 	<body>
     <header>
       <h1>Email Preferences</h1>
@@ -51,5 +65,21 @@
         %%content%%
       </div>
     </main>
+    <script>
+      document.getElementById("piEmailPrefEmail").parentElement.style.display = "none";
+      document.getElementsByTagName("a")[0].classList.add("mui-btn")
+      document.getElementsByTagName("a")[0].classList.add("mui-btn--flat")
+      document.getElementsByTagName("a")[0].classList.add("mui-btn--danger");
+      document.getElementsByTagName("a")[0].parentNode.style.display = "inline-flex";
+      document.getElementsByClassName("submit")[0].classList.add("mui-btn");
+      document.getElementsByClassName("submit")[0].classList.add("mui-btn--raised");
+      document.getElementsByClassName("submit")[0].classList.add("mui-btn--green");
+      document.querySelectorAll('input[type=submit]')[0].style.color = "white";
+      var form = document.getElementsByTagName("form")[0];
+      var markerNode = form.children[7];
+      var newH2 = document.createElement("h2");
+      newH2.textContent = "Don't Miss Out";
+      markerNode.insertAdjacentElement('afterend', newH2);
+    </script>
 	</body>
 </html>

@@ -45,6 +45,7 @@
         flex-direction: column;
         max-width: 960px;
         margin: 0 auto;
+        padding: 20px;
       }
       .mui-btn--green {
         background-color: #61A60D;
@@ -58,6 +59,15 @@
       input[type='submit'] {
         background: none;
         border: none;
+        color: white;
+      }
+      .mui-btn:active input[type='submit'],
+      .mui-btn:focus input[type='submit'],
+      .mui-btn:hover input[type='submit'] {
+        color: black;
+      }
+      input[type='submit']:hover {
+        color: black;
       }
       .mui-btn--danger.mui-btn--flat {
         color: #F3DBB7;
@@ -70,7 +80,6 @@
     </header>
     <main>
       <div class="mui-container-fluid">
-        <h2>Want To Be In The Know?</h2>
         %%content%%
       </div>
     </main>
@@ -83,12 +92,14 @@
       document.getElementsByClassName("submit")[0].classList.add("mui-btn");
       document.getElementsByClassName("submit")[0].classList.add("mui-btn--raised");
       document.getElementsByClassName("submit")[0].classList.add("mui-btn--green");
-      document.querySelectorAll('input[type=submit]')[0].style.color = "white";
       var form = document.getElementsByTagName("form")[0];
       var markerNode = form.children[7];
-      var newH2 = document.createElement("h2");
-      newH2.textContent = "Don't Miss Out";
-      markerNode.insertAdjacentElement('afterend', newH2);
+      var newH21 = document.createElement("h2");
+      var newH22 = document.createElement("h2");
+      newH21.textContent = "Want To Be In The Know?"
+      newH22.textContent = "Don't Miss Out";
+      form.insertAdjacentElement('beforebegin', newH21);
+      markerNode.insertAdjacentElement('afterend', newH22);
       [].slice.call(document.getElementsByClassName("description")).forEach(function(el){ el.innerHTML = "- " + el.innerHTML})
     </script>
 	</body>
